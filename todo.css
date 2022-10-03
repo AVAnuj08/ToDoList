@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(255, 166, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 280px;
+    font-size: 35px;
+    cursor:default;
+    font-style: oblique;
+}
+
+h1:hover {
+    color:rgb(255, 119, 0);
+}
+
+#main{
+    background-color:chocolate;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 600px;
+    width: 720px;
+    background-color:white;
+    border-radius: 10px;   
+    padding: 15px;
+    overflow:auto;
+}
+
+.txt{
+    background-color: white;
+    margin: 0px 10px;
+    height: 60px;
+    width: 653px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: 0px;
+    font-size: 30px;
+    display: block;
+    box-shadow: 0px 0px 2px grey;
+}
+
+#ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#ul li{
+    position: relative;
+    background-color:coral;
+    height: 50px;
+    padding:15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor:pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fa-check{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.fa-xmark{
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+}
+
+.fa-xmark:hover{
+    color:azure;
+}
+
+.fa-check:hover{
+    color:azure;
+}
+
+#ul li:hover{
+    background-color:rgb(236, 90, 37);
+}
